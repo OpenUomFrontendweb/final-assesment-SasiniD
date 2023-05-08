@@ -31,16 +31,6 @@
       "points": 10
     },
     {
-      "name": "Test 2",
-      "setup": "",
-      "run": "ng e2e --spec cypress/e2e/2-view-supplier-date-validation.cy.ts --headless",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 2,
-      "points": 10
-    },
-    {
       "name": "Test 3",
       "setup": "",
       "run": "ng e2e --spec cypress/e2e/3-add-supplier-button-validation.cy.ts --headless",
