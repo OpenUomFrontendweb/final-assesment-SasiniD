@@ -79,6 +79,7 @@
         type="submit"
         class="btn btn-outline-primary"
         id ="supplier-submit"
+        [disabled]="!supplierFrom.valid"
       >
         Submit<i
           *ngIf="isDataUploading"
